@@ -18,7 +18,7 @@ export default function FeatureMovie({ item }) {
     }
 
     return ( <
-            seccion className = "feature"
+            section className = "feature"
             style = {
                 {
                     backgroundSize: "cover",
@@ -53,13 +53,13 @@ export default function FeatureMovie({ item }) {
     href = { `/list/${item.id}` } >
         Minha Lista <
         /a> < /
-        div > <
+    div > <
         div className = "feature__genres" > { /* //4.6 -  Join vai juntar as informaçoes do arrei, usando  avirgura como separador*/ } <
         strong > Gêneros: { genres.join(", ") } < /strong> < /
-        div > <
+    div > <
         /div> < /
-        div > <
+    div > <
         /div> < /
-        seccion >
+    section >
 );
 }
