@@ -4,9 +4,9 @@ import "./FeatureMovie.css";
 export default function FeatureMovie({ item }) {
     console.log("item");
     console.log(item);
-    //4.1 - cria se uma nova data - JavaScript Date instance that represents a single moment in time Date objects contain a Number that represents milliseconds since 1 January 1970 UTC.
+    
     let firstDate = new Date(item.first_air_date);
-    //4.3 - tratando o objeto de generos, colocando cada item dentro de um array
+
     let genres = [];
     for (let i in item.genres) {
         genres.push(item.genres[i].name);
