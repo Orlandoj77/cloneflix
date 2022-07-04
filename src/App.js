@@ -56,15 +56,13 @@ function App() {
 
     return ( <
         div className = "page" >
-        <
-        Header dark = { darkHeader } > < /Header> {
+        <Header dark = { darkHeader } > </Header> {
         //3.1 - irá exibir o componet MovieFeatyre somente quando o state "featureData" estiver preenchido
         featureData && < FeatureMovie item = { featureData }
         />
     }
 
-    <
-    section className = "list" > {
+    <section className = "list" > {
             //1.9 - Mapear o array de objetos recebidos no state movielist
             movieList !== undefined &&
             movieList.map((item, key) => ( <
@@ -73,19 +71,14 @@ function App() {
                 item = { item.itemsfilmes } //imprime as chaves
                 />
             ))
-        } <
-        /section> {
-    movieList.length <= 0 && ( <
-        div className = "loading" >
-        <
-        img src = "https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif"
+        } </section> {
+    movieList.length <= 0 && (
+         <div className = "loading" >
+        < img src = "https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif"
         alt = "loading" >
-        <
-        /img> < /
-        div >
+        </img> </div >
     )
-} <
-/div>
+} </div>
 );
 }
 
