@@ -1,28 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #111;
-    color: #fff;
-    margin: 0;
-    font-family: "Roboto", sans-derif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  font-family: "Roboto", sans-derif;
 }
 
 .lists {
-    margin-top: -150px;
+  margin-top: -150px;
 }
 
 .loading {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
