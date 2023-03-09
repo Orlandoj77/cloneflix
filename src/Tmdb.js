@@ -31,7 +31,7 @@ export default {
       //1.6 - dentro de items, chamar a basicFechpassando o endpoint para ser concatenado na API base da requisição
       {
         slug: "originals",
-        title: "Originais",
+        title: "Mais vistos por apenas: 50kz",
         itemsfilmes: await basicFetch(`discover/tv?with_network=213&`),
       },
       {
@@ -41,7 +41,7 @@ export default {
       },
       {
         slug: "toprated",
-        title: "Em Alta",
+        title: "Filmes no valor de: 100kz",
         itemsfilmes: await basicFetch(`movie/top_rated?&`),
       },
     ];

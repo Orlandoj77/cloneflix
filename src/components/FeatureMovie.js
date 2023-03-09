@@ -48,10 +48,10 @@ export default function FeatureMovie({ item }) {
             <div className="feature__description"> {descr} </div>{" "}
             <div className="feature__buttons">
               <a className="feature__watch_button" href={`/watch/${item.id}`}>
-                Assistir{" "}
+                Assistir por 50kz{" "}
               </a>{" "}
               <a className="feature__mylist_button" href={`/list/${item.id}`}>
-                Minha Lista{" "}
+                Meus filmes{" "}
               </a>{" "}
             </div>{" "}
             <div className="feature__genres">
